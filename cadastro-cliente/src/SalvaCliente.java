@@ -19,7 +19,7 @@ public class SalvaCliente {
 		if (cliente != null) {
 			cliente.setNome(nome);
 
-			ClienteDAO clienteDAO = DAOFactory.getDAoFactory().getClienteDAO();
+			ClienteDAO clienteDAO = DAOFactory.getDAOFactory().getClienteDAO();
 			clienteDAO.salvarCliente(cliente);
 			JOptionPane.showMessageDialog(null, "Cliente salvo com sucesso!!!");
 		}

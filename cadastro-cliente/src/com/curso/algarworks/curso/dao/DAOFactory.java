@@ -4,7 +4,7 @@ import com.curso.algarworks.curso.dao.jdbc.JdbcDAOFactory;
 
 public abstract class DAOFactory {
 
-	public static JdbcDAOFactory getDAoFactory() {
+	public static JdbcDAOFactory getDAOFactory() {
 		return new JdbcDAOFactory();
 	}
 
